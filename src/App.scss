@@ -15,6 +15,7 @@ $height: 68px;
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .ring {
@@ -96,12 +97,6 @@ $height: 68px;
       0% {
         transform: translateX(-100%);
       }
-      // 25% {
-      //   transform: translateX(-100%);
-      // }
-      // 75% {
-      //   transform: translateX($width);
-      // }
       50% {
         transform: translateX($width);
       }
