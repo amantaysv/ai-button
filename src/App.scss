@@ -19,15 +19,15 @@ $height: 68px;
 }
 
 .ring {
-  width: $width + 12;
-  height: $height + 12;
+  width: calc($width + 12px);
+  height: calc($height + 12px);
   background: radial-gradient(
     68.5% 119.738% at 49.1% 100%,
     rgb(175, 120, 245) 0%,
     rgb(116, 56, 255) 100%
   );
   opacity: 0.5;
-  border-radius: ($height + 12) / 2;
+  border-radius: calc(($height + 12px) / 2);
   box-shadow: rgb(15, 7, 32) 0px 16px 32px 0px;
   transform: none;
   transform-origin: 50% 50% 0px;
@@ -42,7 +42,7 @@ $height: 68px;
   justify-content: center;
   align-items: center;
 
-  border-radius: $height / 2;
+  border-radius: calc($height / 2);
   box-shadow: rgba(32, 8, 73, 0.3) 0px 16px 32px 0px, rgba(115, 59, 247, 0.6) 0px 16px 32px 0px,
     rgba(255, 255, 255, 0.2) 0px 1px 0px 0px inset, rgba(0, 0, 0, 0.2) 0px 1px 0px 0px,
     rgb(91, 61, 199) 0px 0px 120px 0px;
@@ -56,7 +56,7 @@ $height: 68px;
   bottom: 0;
   left: 0;
   right: 0;
-  height: $height / 2;
+  height: calc($height / 2);
 
   &Gradient {
     background: linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 100%);
@@ -84,7 +84,7 @@ $height: 68px;
   top: 0;
   left: 0;
   right: 0;
-  height: $height / 2;
+  height: calc($height / 2);
 
   &Gradient {
     background: linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 100%);
@@ -115,7 +115,7 @@ $height: 68px;
   right: 0;
   overflow: hidden;
   background-color: rgb(118, 58, 254);
-  border-radius: $height / 2;
+  border-radius: calc($height / 2);
 }
 
 .innerGlow {
