@@ -1,4 +1,4 @@
-export const Star = () => {
+export const StarIcon = () => {
   return (
     <svg xmlns='http://www.w3.org/2000/svg' height='100%' width='100%' viewBox='0 0 12 12'>
       <path
